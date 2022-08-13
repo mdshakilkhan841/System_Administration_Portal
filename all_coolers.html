@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+		<!-- Bootstrap Icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- Style -->
+		<link rel="stylesheet" href="style.css">
+
+		<title>Koel Fresh</title>
+	</head>
+	<body>
+		<div class="container-fluid min-100 d-flex " style="background-color: #C2CFE0;">			
+			<div class="row flex-grow-1">	
+				<!------- side bar --------->			
+				<div class="col-lg-3 col-sm-4 b-0 sidebar" style="background-color: #0E90DA" >
+					<div class="row shado">
+						<div class="col p-2 m-0">
+							<a href="home.html"><img src="image/koel_fresh.png" width="180px" class="img-fluid img" alt="Responsive image"></a>
+							<a class="text-white p-2"><i class="bi bi-text-right" id="btn"></i></a>
+						</div>
+					</div>
+					<div class="row p-0 " id="side_nav">
+						<div class="col p-0">
+							<ul class="p-0 m-0 nav-list">
+								<li class="p-0">
+									<a href="home.html">
+										<i class="bi bi-laptop"></i>
+										<span class="links_name p-2">Dashboard</span>
+									</a>
+									<span class="tooltip">Dashboard</span>
+								</li>
+								<li class="p-0 ">
+									<a href="administration.html">
+										<i class="bi bi-person-check"></i>
+										<span class="links_name p-2">Administration</span>
+									</a>
+									<span class="tooltip">Administration</span>
+								</li>
+								<li class="p-0">
+									<a href="cooling_management.html">
+										<i class="bi bi-mailbox"></i>
+										<span class="links_name p-2">Cooling Management</span>
+									</a>
+									<span class="tooltip">Cooling Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-lightning-charge"></i>
+										<span class="links_name p-2">Power Management</span>
+									</a>
+									<span class="tooltip">Power Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-truck"></i>
+										<span class="links_name p-2">Vehicle Management</span>
+									</a>
+									<span class="tooltip">Vehicle Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-people"></i>
+										<span class="links_name p-2">Accounts</span>
+									</a>
+									<span class="tooltip">Accounts</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-card-checklist"></i>
+										<span class="links_name p-2">Tasks</span>
+									</a>
+									<span class="tooltip">Tasks</span>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					<div class="row p-0" id="side_nav">
+						<div class="col p-0 ">
+							<ul class="p-0 m-0 nav-list ">
+								<li class="p-0">
+									<a href="#" class="log-icon">
+										<i class="bi bi-box-arrow-right"></i>
+										<span class="links_name p-2">Logout</span>
+									</a>
+									<span class="tooltip">Logout</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!------- Body -------->
+				<div class="col-lg-9 col-sm-8 flex-grow-1">
+					
+					<!------- Body Header -------->
+					<div class="row bg-light shado header d-flex align-items-center">
+						<div class="col">
+							<h4 class="">Active Storage</h4>
+						</div>
+						<div class="col">
+							<form class="d-flex">
+								<input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+								<button class="btn btn-outline src_btn" type="submit"><i class="bi bi-search"></i></button>
+							  </form>
+						</div>
+						<div class="col d-flex justify-content-end">
+							<a class="p-1"><img src="image/profile.jpg" class="img-fluid rounded-circle" width="45px" alt="..."></a>
+							<div class=" row p-1">
+								<div class="col">
+									<h6 class="m-0">SHAKIL KHAN</h6>
+									<span class="m-0"><h7>Developer</h7></span>
+								</div>
+							</div>					
+						</div>
+					</div>
+					
+					<!------- Body Content -------->
+					<div class="container" >
+						<div class="row d-flex justify-content-center mt-4 mb-4">
+							<div class="col-12 card bg-light text-center p-lg-4 p-sm-3 shado">
+								<div class="row">
+									<div class="col d-flex align-self-center"><h5>Coolers In</h5></div>
+									<div class="col d-flex justify-content-center">
+										<button type="button" class="btn btn-danger location_btn">Odisha</button>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<button type="button" class="btn btn-danger location_btn">Bihar</button>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<button type="button" class="btn btn-danger location_btn">Jharkhand</button>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<button type="button" class="btn btn-danger location_btn">Chattisgarh</button>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<button type="button" class="btn btn-danger location_btn">W.Bengal</button>
+									</div>
+								</div>
+								<!------- line ------>
+								<hr>
+								<div class="row">
+									<div class="col table-responsive">
+										<table class="table table-bordered table-striped table-hover">
+											<thead>
+												  <tr>
+													<th scope="col">Sl.</th>
+													<th scope="col">Cooler Code</th>
+													<th scope="col">Location</th>
+													<th scope="col">Free Capacity (Ton)</th>
+													<th scope="col">Temparature (°C)</th>
+													<th scope="col">Humidity (%)</th>
+													<th scope="col">Details</th>		
+												  </tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">1</th>
+													<td>KN0001</td>
+													<td>Koel Nagar</td>
+													<td>20</td>
+													<td>10</td>
+													<td>15.05</td>
+													<td scope="row"><a href="view_individual_cooler.html"><button type="button" class="btn btn-success btn-sm ">View</button></a></td>
+												</tr>
+												<tr>
+													<th scope="row">2</th>
+													<td>KN0002</td>
+													<td>Koel Nagar</td>
+													<td>15</td>
+													<td>12</td>
+													<td>16.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">3</th>
+													<td>TM0003</td>
+													<td>Trafic Market</td>
+													<td>30</td>
+													<td>10</td>
+													<td>12.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">4</th>
+													<td>TM0004</td>
+													<td>Trafic Market</td>
+													<td>18</td>
+													<td>10</td>
+													<td>10.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">5</th>
+													<td>RC0001</td>
+													<td>Railway Colony</td>
+													<td>20</td>
+													<td>11</td>
+													<td>15.50</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+		</div>
+		
+		
+		
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+		<!------ My Script ------->
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+		<!-- Bootstrap Icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- Style -->
+		<link rel="stylesheet" href="style.css">
+
+		<title>Koel Fresh</title>
+	</head>
+	<body>
+		<div class="container-fluid min-100 d-flex " style="background-color: #C2CFE0;">			
+			<div class="row flex-grow-1">	
+				<!------- side bar --------->			
+				<div class="col-lg-3 col-sm-4 b-0 sidebar" style="background-color: #0E90DA" >
+					<div class="row shado">
+						<div class="col p-2 m-0">
+							<a href="home.html"><img src="image/koel_fresh.png" width="180px" class="img-fluid img" alt="Responsive image"></a>
+							<a class="text-white p-2"><i class="bi bi-text-right" id="btn"></i></a>
+						</div>
+					</div>
+					<div class="row p-0 " id="side_nav">
+						<div class="col p-0">
+							<ul class="p-0 m-0 nav-list">
+								<li class="p-0">
+									<a href="home.html">
+										<i class="bi bi-laptop"></i>
+										<span class="links_name p-2">Dashboard</span>
+									</a>
+									<span class="tooltip">Dashboard</span>
+								</li>
+								<li class="p-0 ">
+									<a href="administration.html">
+										<i class="bi bi-person-check"></i>
+										<span class="links_name p-2">Administration</span>
+									</a>
+									<span class="tooltip">Administration</span>
+								</li>
+								<li class="p-0">
+									<a href="cooling_management.html">
+										<i class="bi bi-mailbox"></i>
+										<span class="links_name p-2">Cooling Management</span>
+									</a>
+									<span class="tooltip">Cooling Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-lightning-charge"></i>
+										<span class="links_name p-2">Power Management</span>
+									</a>
+									<span class="tooltip">Power Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-truck"></i>
+										<span class="links_name p-2">Vehicle Management</span>
+									</a>
+									<span class="tooltip">Vehicle Management</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-people"></i>
+										<span class="links_name p-2">Accounts</span>
+									</a>
+									<span class="tooltip">Accounts</span>
+								</li>
+								<li class="p-0">
+									<a href="#">
+										<i class="bi bi-card-checklist"></i>
+										<span class="links_name p-2">Tasks</span>
+									</a>
+									<span class="tooltip">Tasks</span>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					<div class="row p-0" id="side_nav">
+						<div class="col p-0 ">
+							<ul class="p-0 m-0 nav-list ">
+								<li class="p-0">
+									<a href="#" class="log-icon">
+										<i class="bi bi-box-arrow-right"></i>
+										<span class="links_name p-2">Logout</span>
+									</a>
+									<span class="tooltip">Logout</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!------- Body -------->
+				<div class="col-lg-9 col-sm-8 flex-grow-1">
+					
+					<!------- Body Header -------->
+					<div class="row bg-light shado header d-flex align-items-center">
+						<div class="col">
+							<h4 class="">Active Storage</h4>
+						</div>
+						<div class="col">
+							<form class="d-flex">
+								<input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+								<button class="btn btn-outline src_btn" type="submit"><i class="bi bi-search"></i></button>
+							  </form>
+						</div>
+						<div class="col d-flex justify-content-end">
+							<a class="p-1"><img src="image/profile.jpg" class="img-fluid rounded-circle" width="45px" alt="..."></a>
+							<div class=" row p-1">
+								<div class="col">
+									<h6 class="m-0">SHAKIL KHAN</h6>
+									<span class="m-0"><h7>Developer</h7></span>
+								</div>
+							</div>					
+						</div>
+					</div>
+					
+					<!------- Body Content -------->
+					<div class="container" >
+						<div class="row d-flex justify-content-center mt-4">
+							<div class="row d-flex align-items-center">
+								<div class="col-lg-1 col-sm-2 d-inline-flex">
+									<p class="m-0 align-self-center h6">State:</p>
+								</div>
+								<div class="col-3 ">
+									<select name="state" id="state" class="form-control">
+										<option value="">Choose State Name</option>
+										<option value="Andhra Pradesh">Andhra Pradesh</option>
+										<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+										<option value="Assam">Assam</option>
+										<option value="Bihar">Bihar</option>
+										<option value="Chandigarh">Chandigarh</option>
+										<option value="Chhattisgarh">Chhattisgarh</option>
+										<option value="Delhi">Delhi</option>
+										<option value="Lakshadweep">Lakshadweep</option>
+										<option value="Puducherry">Puducherry</option>
+										<option value="Goa">Goa</option>
+										<option value="Gujarat">Gujarat</option>
+										<option value="Haryana">Haryana</option>
+										<option value="Jharkhand">Jharkhand</option>
+										<option value="Karnataka">Karnataka</option>
+										<option value="Kerala">Kerala</option>
+										<option value="Madhya Pradesh">Madhya Pradesh</option>
+										<option value="Maharashtra">Maharashtra</option>
+										<option value="Manipur">Manipur</option>
+										<option value="Meghalaya">Meghalaya</option>
+										<option value="Mizoram">Mizoram</option>
+										<option value="Nagaland">Nagaland</option>
+										<option value="Odisha">Odisha</option>
+										<option value="Punjab">Punjab</option>
+										<option value="Rajasthan">Rajasthan</option>
+										<option value="Sikkim">Sikkim</option>
+										<option value="Tamil Nadu">Tamil Nadu</option>
+										<option value="Telangana">Telangana</option>
+										<option value="Tripura">Tripura</option>
+										<option value="Uttar Pradesh">Uttar Pradesh</option>
+										<option value="Uttarakhand">Uttarakhand</option>
+										<option value="West Bengal">West Bengal</option>
+									</select>
+								</div>
+								<div class="col p-0 d-flex justify-content-end">
+									<a href="all_coolers.html">
+										<button type="button" class="btn btn-danger">See All Coolers <i class="bi bi-arrow-right"></i></button>
+									</a>
+								</div>
+
+							</div>
+							<div class="row d-flex align-items-center mt-3">
+								<div class="col-lg-1 col-sm-2 d-inline-flex">
+									<p class="m-0 align-self-center h6">District:</p>
+								</div>
+								<div class="col-2">
+									<select name="state" id="state" class="form-control">
+										<option value="">Choose District Name</option>
+										<option value="Andhra Pradesh">Angul</option>
+										<option value="Arunachal Pradesh">Balangir</option>
+										<option value="Assam">Balasore</option>
+										<option value="Bihar">Bargarh</option>
+										<option value="Chandigarh">Bhadrak</option>
+										<option value="Chhattisgarh">Boudh</option>
+										<option value="Delhi">Cuttack</option>
+										<option value="Lakshadweep">Deogarh</option>
+										<option value="Puducherry">Dhenkanal</option>
+										<option value="Goa">Gajapati</option>
+										<option value="Gujarat">Ganjam</option>
+										<option value="Haryana">Jagatsinghapur</option>
+										<option value="Jharkhand">Jajpur</option>
+										<option value="Karnataka">Jharsuguda</option>
+										<option value="Kerala">Kalahandi</option>
+										<option value="Madhya Pradesh">Kandhamal</option>
+										<option value="Maharashtra">Kendrapara</option>
+										<option value="Manipur">Kendujhar</option>
+										<option value="Meghalaya">(Keonjhar)</option>
+										<option value="Mizoram">Khordha</option>
+										<option value="Nagaland">Koraput</option>
+										<option value="Odisha">Malkangiri</option>
+										<option value="Punjab">Mayurbhanj</option>
+										<option value="Rajasthan">Nabarangpur</option>
+										<option value="Sikkim">Nayagarh</option>
+										<option value="Tamil Nadu">Nuapada</option>
+										<option value="Telangana">Puri</option>
+										<option value="Tripura">Rayagada</option>
+										<option value="Uttar Pradesh">Sambalpur</option>
+										<option value="Uttarakhand">Sonepur</option>
+										<option value="West Bengal">Sundargarh</option>
+									</select>
+								</div>
+							</div>
+							<div class="row d-flex align-items-center mt-3">
+								<div class="col-lg-1 col-sm-2 d-inline-flex">
+									<p class="m-0 align-self-center h6">Block:</p>
+								</div>
+								<div class="col-3">
+									<select name="state" id="state" class="form-control">
+										<option value="">Choose Block Name</option>
+										<option value="Andhra Pradesh">Banei</option>
+										<option value="Arunachal Pradesh">Baragaon</option>
+										<option value="Assam">Bhasma</option>
+										<option value="Bihar">Bisra</option>
+										<option value="Chandigarh">Bondamunda</option>
+										<option value="Chhattisgarh">Brahmani Tarang</option>
+										<option value="Delhi">Chandiposh</option>
+										<option value="Lakshadweep">Dharuadihi</option>
+										<option value="Puducherry">Gurundia</option>
+										<option value="Goa">Hatibari</option>
+										<option value="Gujarat">Hemgir</option>
+										<option value="Haryana">Kamarposh Balang</option>
+										<option value="Jharkhand">Kinjirkela</option>
+										<option value="Karnataka">Koida</option>
+										<option value="Kerala">Kutra</option>
+										<option value="Madhya Pradesh">Lahunipara</option>
+										<option value="Maharashtra">Lathikata</option>
+										<option value="Manipur">Lephripara</option>
+										<option value="Meghalaya">Mahulapada</option>
+										<option value="Mizoram">Raghunathapali</option>
+										<option value="Nagaland">Raiboga</option>
+										<option value="Odisha">	Rajagangapur</option>
+										<option value="Punjab">Raurkela (ITS)P.S.</option>
+										<option value="Rajasthan">Raurkela (M)</option>
+										<option value="Sikkim">Sundargarh</option>
+										<option value="Tamil Nadu">Sundargarh Town</option>
+										<option value="Telangana">Talasara</option>
+										<option value="Tripura">Tangarapali</option>
+										<option value="Uttar Pradesh">Tikaetpali</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row d-flex justify-content-center mt-4 mb-4">
+							<div class="col-12 card bg-light text-center p-lg-4 p-sm-3 shado">
+								<div class="row">
+									<div class="col d-flex"><h5>Active Coolers</h5></div>
+									<div class="col d-flex justify-content-end">
+										<button type="button" class="btn btn-danger">See all <i class="bi bi-arrow-right"></i></button>
+									</div>
+								</div>
+								<!------- line ------>
+								<hr>
+								<div class="row">
+									<div class="col table-responsive">
+										<table class="table table-striped table-bordered table-hover">
+											<thead>
+												<tr>
+													<th scope="col">Sl.</th>
+													<th scope="col">Cooler Code</th>
+													<th scope="col">Location</th>
+													<th scope="col">Free Capacity (Ton)</th>
+													<th scope="col">Temparature (°C)</th>
+													<th scope="col">Humidity (%)</th>
+													<th scope="col">Details</th>		
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">1</th>
+													<td>KN0001</td>
+													<td>Koel Nagar</td>
+													<td>20</td>
+													<td>10</td>
+													<td>15.05</td>
+													<td scope="row"><a href="view_individual_cooler.html"><button type="button" class="btn btn-success btn-sm ">View</button></a></td>
+												</tr>
+												<tr>
+													<th scope="row">2</th>
+													<td>KN0002</td>
+													<td>Koel Nagar</td>
+													<td>15</td>
+													<td>12</td>
+													<td>16.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">3</th>
+													<td>TM0003</td>
+													<td>Trafic Market</td>
+													<td>30</td>
+													<td>10</td>
+													<td>12.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">4</th>
+													<td>TM0004</td>
+													<td>Trafic Market</td>
+													<td>18</td>
+													<td>10</td>
+													<td>10.00</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+												<tr>
+													<th scope="row">5</th>
+													<td>RC0001</td>
+													<td>Railway Colony</td>
+													<td>20</td>
+													<td>11</td>
+													<td>15.50</td>
+													<td scope="row"><button type="button" class="btn btn-success btn-sm ">View</button></td>
+												</tr>
+											</tbody>
+									  	</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+		</div>
+		
+		
+		
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+		<!------ My Script ------->
+		<script src="script.js"></script>
+	</body>
+</html>
