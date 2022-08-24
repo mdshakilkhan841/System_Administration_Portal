@@ -1,0 +1,8 @@
+# System_Administration_Portal![Screenshot (30)](https://user-images.githubusercontent.com/77512256/186521679-eb599399-a0e3-4992-9cdb-275822e56f6f.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/77512256/186521684-87504c09-9d03-4720-b303-479e6e4d75cf.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/77512256/186521687-57f4f502-651e-4861-8940-768716fac43e.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/77512256/186521688-5545de75-3f02-4310-b3e1-22cd67cc5aca.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/77512256/186521692-12621f58-7314-4dcb-abbb-8890c042d6b7.png)
+![Screenshot (36)](https://user-images.githubusercontent.com/77512256/186521696-fd2986fb-635a-435d-8ade-d9d8881fb6e5.png)
+![Screenshot (37)](https://user-images.githubusercontent.com/77512256/186521698-5eb3c428-bacc-4550-a390-b72bd3775547.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/77512256/186521702-f6bd9447-371f-45f0-bf3d-eaa8e9dbd58e.png)
